@@ -1,0 +1,99 @@
+/* Universal selector */
+* {
+    background-color: lightgoldenrodyellow;
+    color: red;
+}
+
+/* Pseudo-classes selector */
+a:hover {
+    background-color: aqua;
+}
+
+/* Tag selector */
+p {
+    color: brown;
+}
+
+/* Class selector */
+.highlight {
+    color: palevioletred;
+}
+
+/* Id selector */
+#header {
+    background-color: aliceblue;
+}
+
+/* Decendant selector */
+article p {
+    color: rgb(146, 16, 163);
+}
+
+article h2 {
+    color: darkorange;
+}
+
+/* Child selector, parent > direct child. Matches an element that is a direct child of a spesific element*/
+ul > li {
+    list-style-type: georgian;
+}
+
+/* All siblings of the h2 */
+h2 ~ p {
+    background-color: white;
+}
+
+/* Sibling selector: select the closest sibling (the next brother) to h2 */
+h2 + p {
+    background-color: aqua;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    color: blueviolet;
+    font-size: 18px;
+    border-color: palevioletred;
+}
+
+input[type="submit"] {
+    background-color: rgb(255, 220, 225);
+    color: coral;
+    border-color: rgb(247, 130, 149);
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+
+/* Pseudo-class selector, first child */
+ul li:first-child {
+    background-color: lightgreen;
+}
+
+/* Pseudo-class selector, last child */
+ul li:last-child {
+    background-color: lightgreen;
+}
+
+/* Pseudo-class selector, the number you put in deterines what number of child you select */
+ul li:nth-child(2) {
+    background-color: lightskyblue;
+}
+
+/* pseudo-elements ::before and ::after */
+p::before {
+    content: "help me!";
+}
+
+p::after {
+    content: "SOS";
+}
+
+/* Grouping selectors */
+h1, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Combining selectors */
+p.dummy::first-letter {
+font-size: 100px;
+initial-letter: 3 3;
+}
