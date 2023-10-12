@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
 header{
@@ -10,12 +11,12 @@ header{
 
 label {
     font-size: 38px;
+    padding: 16px;
 }
 
 nav {
     display: none;
     background-color: black;
-    border-radius: 1em;
     padding: 16px;
 }
 
@@ -28,7 +29,7 @@ nav {
 }
 
 nav ul {
-    padding: 0;
+    padding: 16px 0;
 }
 
 nav ul li {
@@ -43,7 +44,7 @@ nav a {
 
 /* small */
 @media (min-width: 640px) {
-
+    
 }
 
 /* medium */
