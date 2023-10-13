@@ -54,6 +54,11 @@ body {
     right: 0;
 }
 
+.header-body .circle svg {
+    display: block;
+    border-bottom-right-radius: 10px;
+}
+
 .qr-content {
     display: flex;
     flex-direction: column;
