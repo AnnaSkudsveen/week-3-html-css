@@ -1,0 +1,55 @@
+:root {
+    --cappuccino: #4b3832;
+    --background: #D5E1EF;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-card {
+    border-radius: 20px;
+    background-color: white;
+    padding: 1rem;
+    width: 320px;
+}
+
+.header-body {
+    background-color: #2C7DFA;
+    border-radius: 10px;
+    width: 100%;
+    height: 288px;
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+    /* Your styles for the medium breakpoint here */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+    /* Your styles for the large breakpoint here */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+}
+
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+    /* Your styles for the 2XL breakpoint here */
+}
